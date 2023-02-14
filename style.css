@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+    color: white;
+    margin-right: 30px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.nav li.active{
+    background-color: blue;
+    padding: 6px;
+}
+
+.row{
+    float: left;
+    width: 30%;
+
+}
+img{
+    width: 90%;
+    height: 150px;
+    margin: 30px;
+}
